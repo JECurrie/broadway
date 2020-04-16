@@ -28,6 +28,10 @@ group :test do
   gem 'webdrivers',         '4.1.2'
 end
 
+group :production do
+  gem 'pg'
+end
+
 gem 'tzinfo-data', '~> 1.2019', '>= 1.2019.3'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # Uncomment the following line if you're running Rails on a native Windows system:
